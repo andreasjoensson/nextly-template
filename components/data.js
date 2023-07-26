@@ -7,54 +7,53 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/chat.json";
+import benefitTwoImg from "../public/img/chatbot.json";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Dybdegående tilpasning",
+  desc: "Med vores løsning har du mulighed for at træne din chatbot på dine specifikke forretningsdata. Dette sikrer, at din AI chatbot kan tilbyde nøjagtige og relevante svar til dine kunder.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Øg din kundeengagement",
+      desc: "Ved at bruge vores AI chatbot kan du tilbyde kunderne hurtige og præcise svar, hvilket øger deres engagement og forbedrer deres oplevelse med din virksomhed.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Forbedr din kundeanskaffelse",
+      desc: "Vores AI chatbot gør det muligt at håndtere et ubegrænset antal kundeinteraktioner samtidigt, hvilket effektivt øger din evne til at anskaffe nye kunder.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Styrk kundeloyaliteten",
+      desc: "En hurtig og effektiv kundeservice, som vores AI chatbot tilbyder, kan hjælpe med at øge kundetilfredsheden og styrke kundeloyaliteten.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Yderligere fordele ved vores løsning",
+  desc: "Vores AI chatbot er designet til at være enkel at integrere på din hjemmeside. Den er fuldt mobilvenlig og understøtter flere sprog, hvilket betyder at du kan betjene et bredere kundegrundlag.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Mobilvenlig løsning",
+      desc: "Vores AI chatbot er designet til at være fuldt kompatibel med mobile enheder, så dine kunder kan få adgang til det uanset hvilken enhed de bruger.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Drevet af den seneste teknologi",
+      desc: "Vores chatbot er drevet af avancerede teknologier og værktøjer, hvilket sikrer at den altid er på forkant med den nyeste udvikling inden for AI chatbots.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Understøtter både mørk og lys tilstand",
+      desc: "Vores AI chatbot kommer med en nem-at-bruge lys og mørk tilstand, så den kan passe perfekt ind i designet på din hjemmeside.",
       icon: <SunIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
